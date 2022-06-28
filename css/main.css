@@ -1,4 +1,220 @@
-body {
-    background-color: salmon;
-    color: white;
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    background-color: beige;
+}
+nav li{
+    display: inline;
+    margin: 20px;
+}
+nav ul{
+    background-color: beige;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+
+nav{
+    display: block;
+    color: pink;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: palevioletred;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/hero-image.jpg.JPG");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.hero-text{
+    color:palegoldenrod;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#profile-image{
+    width: 100px;
+    border-radius: 15%;
+    border: 5px solid lightgray;
+
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display: inline;
+}
+
+#profile-details{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: pink;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: paleturquoise;
+    border-style: double;
+    
+}
+
+#social-media{
+    background-color:white;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+}
+
+#twit-logo{
+    width: 50px;
+    padding-right:25px; 
+    padding-left:25px;
+    text-decoration: underline;
+
+}
+
+#twit-logo:hover{
+    width:65px;
+    text-decoration: underline;
+}
+
+#dis-logo{
+    width: 45px;
+    border-radius: 15%;
+    padding-bottom: 1px;
+    padding-right:25px;
+    padding-left:25px;
+    text-decoration: none;
+    
+}
+
+#dis-logo:hover{
+    width:60px;
+    text-decoration: none;
+}
+
+#insta-logo{
+    width:45px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+#insta-logo:hover{
+    width:60px;
+    text-decoration: none;
+}
+
+#family-photo{
+    width:550px;
+    padding:15px;
+}
+
+#prime-vid{
+    width:400px;
+    height:700px;
+    padding-left:65%;
+    position: relative;
+    top:-500px;
+}
+
+#mex-flag{
+    width: 70px;
+}
+
+.cod-vid{
+    width: 150px;
+    border-radius: 15%;
+    
+}
+
+.cod-vid:hover{
+    width:500px;
+}
+
+.barca-img{
+    background-image: linear-gradient(rgba(137,207,240,0.5),rgba(137,0,0,0.5)), url("../images/barca-img.jpg");
+    position:relative;
+    background-size:contain;
+    padding: 30px;
+
+}
+
+#hobbies{
+    color:bisque;
+    font-size: larger;
+    padding: 0%;
+    margin: 0%;
+}
+
+.binary-img{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../images/binary.jpg");
+    position:relative;
+    padding:50px;
+
+}
+
+#code-goal{
+    color:lavender;
+    font-size: larger;
+    font-style: italic;
+    padding: 0%;
+}
+
+#first{
+    font-size: larger;
+    height: 1000px;
+}
+#firstone{
+    position: relative;
 }
